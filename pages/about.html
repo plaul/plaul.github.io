@@ -1,0 +1,26 @@
+<template>
+  <h2>About this exercise/example</h2>
+  <p>
+    This demo (exercise) serves as a proof of concert for what you can do with Navigo and the small utility functions
+    provides by us, to let you use html-templates to <b>modularize</b> your code
+  </p>
+  <em>This is a client-side only exercise. All data are handled in an in-memory data-repository</em>
+  <p>The exercise will demonstrate how to solve the following problems:</p>
+
+  <ul>
+    <li>Simple routes using ready to use html-templates (templates that does not require dom-manipulation)</li>
+    <li>Routes that requires the html-template to be manipulated (for example /books)</li>
+    <li>Routes that take parameters (Find book) Observe that here we need to provide a dummy parameter to the link (-1)
+      when called
+      directly from the menu. This is necessary since it's also used from the UL's in Books</li>
+    <li>How to update the "menu bar" to reflect the <code>active</code> attribute (the selected route)</li>
+    <li>How to hide/show/change fields. Observe how, when you login
+      <ul>
+        <li> The <em>login</em> button changes to <em>logout</em></li>
+        <li>You suddenly have an <em>"Add Book"</em> option</li>
+        <li> In <em>"Find Book"</em> you can now <em>edit</em> and <em>delete</em> the book.</li>
+      </ul>
+    <li>How to programmatically navigate between routes. Observe how you are redirected to the "Home" page after a login
+      or logout.</li>
+  </ul>
+</template>
